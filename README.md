@@ -31,7 +31,7 @@ PuTTY is a free, open-source SSH and telnet client for Windows.
 
 You can download PuTTY from the official website: [https://www.putty.org/](https://putty.org/).
 
-Follow the instructions to download and install PuTTY on your computer.
+![image](https://i.imgur.com/tuxdYQP.png)
 
 Once installed, you'll be ready to connect to your Azure virtual machine securely.
 
@@ -47,11 +47,17 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 *Once signed in, select "Virtual machines" from the dashboard*
 
+![image](https://i.imgur.com/h3UtK1N.png)
+
 *Click on "Add" to create a new virtual machine*
+
+![image](https://i.imgur.com/FOFHpxE.png)
 
 *Click on "Azure Virtual Machine"*
 
 *Create a new resource group. Name it appropriately.*
+
+![image](https://i.imgur.com/yAr5Bbt.png)
 
 **Choose a recognizable name for your virtual machine**
 
@@ -59,15 +65,19 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 *Choose the Debian operating system and leave the architecture as default.*
 
+![image](https://i.imgur.com/RpGlRh5.png)
+
 *Optionally, enable the Azure spot discount to reduce the cost, but be aware of potential interruptions.*
 
 *Select an appropriate size for your VM, considering the recommended minimum of 8GB RAM. We suggest choosing 16GB for better performance.*
 
+![image](https://i.imgur.com/9zejlWV.png)
 
 *Configure authentication settings by selecting a unique username and password. Save this information for future use.*
 
-
 *Ensure SSH is selected in the inbound port section for connecting to your virtual machine later.*
+
+![image](https://i.imgur.com/wLVnA3I.png)
 
 *Click on Next*
 
@@ -75,16 +85,19 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 *Create and attach a new disk with a minimum size of 128GB.*
 
+![image](https://i.imgur.com/VDcviBR.png)
+
 *Proceed with default settings for virtual network, subnet, and public IP address creation.*
 
 ### Step 4: Configure Management
 
 *Optionally, enable auto shutdown to save costs by stopping the VM daily.*
+
+![image](https://i.imgur.com/EucS0F7.png)
  
 *Decide on the duration you want to keep the VM running, considering associated charges for a stopped VM with a public IP address.*
 
 *Be mindful of your Azure credit and consider deleting resources when not in use to avoid unexpected charges.*
-
 
 ### Step 5: Review and Create
 
@@ -95,6 +108,8 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 ### Step 6: Download Private Key
 
 *After the creation process completes, download the private key for authentication purposes.*
+
+![image](https://i.imgur.com/FMoXZfu.png)
 
 *Save the private key in a secure location as it will be used to connect to your VM in the next steps.*
 
