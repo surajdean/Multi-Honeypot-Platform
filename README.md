@@ -6,12 +6,11 @@ In this guide, fill in later
 
 - Azure cloud
 - PuTTy
-- VirtualBox
 - T-Pot
 
 ## Environments Used
 
-- Windows 10 VM
+- Linux (Debian 11)
 
 ## Part 1: Setup Lab Resources
 
