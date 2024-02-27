@@ -1,6 +1,6 @@
 # Multi-Honeypot-Platform
 
-In this guide, fill in later
+In this guide, you'll deploy Teleport on Azure Cloud, a honeypot simulating 23 vulnerable systems. You'll gain hands-on experience with Linux configuration, network settings, and honeypot data analysis, equipping you with valuable skills in threat detection and cyber defense.
 
 ## Tools Used
 
@@ -223,7 +223,7 @@ By following these steps, you'll be able to access and explore the pod interface
 
 ## How to Discover Cyber Threats with HoneyPots in Real-Time
 
-### Step 1: Exploring the Attack Map
+### Exploring the Attack Map
 
 ![image](https://i.imgur.com/OxmZtDz.png)
 
@@ -239,7 +239,7 @@ By following these steps, you'll be able to access and explore the pod interface
 
 *Different colors represent different types of services targeted in attacks.*
 
-### Step 2: Analyzing with Elastic View
+### Analyzing with Elastic View
 
 ![image](https://i.imgur.com/B9TtdK2.png)
 
@@ -253,7 +253,7 @@ By following these steps, you'll be able to access and explore the pod interface
 
 *Explore different log entries to understand attack attempts and other activities.*
 
-### Step 3: Visualizing Data with Kibana
+### Visualizing Data with Kibana
 
 ![image](https://i.imgur.com/SLv7Sk8.png)
 
@@ -269,7 +269,7 @@ By following these steps, you'll be able to access and explore the pod interface
 
 *Explore different attack types and their frequency.*
 
-### Step 4: Using Spider Foot for Reconnaissance
+### Using Spider Foot for Reconnaissance
 
 ![image](https://i.imgur.com/LVLyx54.png)
 
