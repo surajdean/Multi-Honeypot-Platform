@@ -119,11 +119,19 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 *In the Azure Portal, navigate to the resource you created earlier.*
 
+![image](https://i.imgur.com/doVlqEg.png)
+
 *Go to the networking section.*
+
+![image](https://i.imgur.com/4Dw0Ea0.png)
 
 *Add an inbound rule to open ports for incoming and outgoing connections.*
 
+![image](https://i.imgur.com/5DCUCh1.png)
+
 *Specify the range of ports from 0 to 65,535.*
+
+![image](https://i.imgur.com/vNoJMMJ.png)
 
 *Set the source destination to any, service to custom, and action to allow.*
 
@@ -141,6 +149,8 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 *Accept any security prompts and provide the username and password you set up for your Azure VM.*
 
+![image](https://i.imgur.com/XxtJHE3.png)
+
 *Upon successful authentication, you will be connected to your VM via SSH.*
 
 ### Step 3: Update and Upgrade System Packages
@@ -157,7 +167,7 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
 
 ### Step 5: Download T-Pot Repository
 
-*Visit the GitHub repository containing the T-Pot installation files.*
+*Visit [this GitHub repository](https://github.com/telekom-security/tpotce) containing the T-Pot installation files.*
 
 *Copy the Git command provided in the repository
 
@@ -173,7 +183,7 @@ Navigate to portal.azure.com and sign in with your Azure account credentials.
     
 *Once the installation completes, you're ready to explore and configure your T-Pot honeypot.*
     
-By following these steps, you've successfully configured your Azure virtual machine and installed T-Pot, ready to use it as a honeypot for cybersecurity purposes. Enjoy exploring the capabilities of your new honeypot!
+By following these steps, you've successfully configured your Azure virtual machine and installed T-Pot, ready to use it as a honeypot for cybersecurity purposes.
 
 ## Using the HoneyPot Web Interface to Track Cyber Threats
 
