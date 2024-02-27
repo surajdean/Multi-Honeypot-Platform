@@ -186,9 +186,9 @@ By following these steps, you've successfully configured your Azure virtual mach
 
 ## Using the HoneyPot Web Interface to Track Cyber Threats
 
-### Step 1: Accessing the Pod Web Interface
+### Step 1: Accessing the T-Pot Web Interface
 
-*After deploying the pod on Microsoft Azure Cloud platform, access the pod's web interface using your VM's IP address.*
+*After deploying the pod on Microsoft Azure Cloud platform, access the T-Pot web interface using your VM's IP address.*
 
 *Open a new web browser tab and enter https://<your_VM_IP_address>:64297.*
 
@@ -202,28 +202,30 @@ By following these steps, you've successfully configured your Azure virtual mach
 
 *Once logged in, you'll be presented with the pod interface.*
 
+![image](https://i.imgur.com/5iNajlv.png)
+
 Here's an overview of the main sections:
 
-Attack Map: Displays a live attack map showing the geographic location of attackers and types of attacks on your honeypot.
-Cockpit: The main dashboard providing a real-time view of honeypot activity, including attack statistics and top attackers.
-Cyber Chef: A web-based tool for analyzing and decoding data captured by the honeypot.
-Elastic View: Allows visualization of collected data, enabling searching for specific events and viewing results in various visual formats.
-Nibbana: Helps visualize collected data by creating custom dashboards and reports based on the honeypot's data.
-Spider Foot: A reconnaissance tool for gathering information about potential attackers from publicly available sources, such as IP addresses, domains, and email addresses.
+- Attack Map: Displays a live attack map showing the geographic location of attackers and types of attacks on your honeypot.
+- Cockpit: The main dashboard providing a real-time view of honeypot activity, including attack statistics and top attackers.
+- Cyberchef: A web-based tool for analyzing and decoding data captured by the honeypot.
+- Elasticvue: Allows visualization of collected data, enabling searching for specific events and viewing results in various visual formats.
+- kibana: Helps visualize collected data by creating custom dashboards and reports based on the honeypot's data.
+- Spiderfoot: A reconnaissance tool for gathering information about potential attackers from publicly available sources, such as IP addresses, domains, and email addresses.
 
 ### Step 3: Further Exploration
 
-*Take some time to explore each section of the pod interface.*
+Take some time to explore and play around with each section of the pod interface. Familiarize yourself with the tools and features available, such as monitoring attack activity, analyzing captured data, and visualizing collected information.
 
-*Familiarize yourself with the tools and features available, such as monitoring attack activity, analyzing captured data, and visualizing collected information.*
+Experiment with different functionalities to gain insights into the activity on your honeypot and potential threats.
 
-*Experiment with different functionalities to gain insights into the activity on your honeypot and potential threats.*
-
-By following these steps, you'll be able to access and explore the pod interface deployed on Microsoft Azure Cloud platform, gaining valuable insights into the security landscape and potential threats facing your environment. Enjoy exploring the capabilities of your T-Pot honeypot!
+By following these steps, you'll be able to access and explore the pod interface deployed on Microsoft Azure Cloud platform, gaining valuable insights into the security landscape and potential threats facing your environment.
 
 ## How to Discover Cyber Threats with HoneyPots in Real-Time
 
 ### Step 1: Exploring the Attack Map
+
+![image](https://i.imgur.com/OxmZtDz.png)
 
 *Open the Attack Map section of the pod interface.*
 
@@ -239,6 +241,8 @@ By following these steps, you'll be able to access and explore the pod interface
 
 ### Step 2: Analyzing with Elastic View
 
+![image](https://i.imgur.com/B9TtdK2.png)
+
 *Navigate to the Elastic View section of the pod interface.*
 
 *Connect to the cluster to view server utilization, including disk and RAM usage.*
@@ -250,6 +254,8 @@ By following these steps, you'll be able to access and explore the pod interface
 *Explore different log entries to understand attack attempts and other activities.*
 
 ### Step 3: Visualizing Data with Kibana
+
+![image](https://i.imgur.com/SLv7Sk8.png)
 
 *Access Kibana, part of the Elastic Stack, to visualize collected data.*
 
@@ -264,6 +270,8 @@ By following these steps, you'll be able to access and explore the pod interface
 *Explore different attack types and their frequency.*
 
 ### Step 4: Using Spider Foot for Reconnaissance
+
+![image](https://i.imgur.com/LVLyx54.png)
 
 *Navigate to the Spider Foot section of the pod interface.*
 
